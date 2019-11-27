@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>打酱油的熊</title>
+  <icon>http://hxear.top/icon.png</icon>
+  <subtitle>单细胞生物的星星梦</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://hxear.top/"/>
+  <updated>2019-11-27T18:21:25.601Z</updated>
+  <id>http://hxear.top/</id>
+  
+  <author>
+    <name>胡雄鹏</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown的使用方法</title>
+    <link href="http://hxear.top/Markdown_method.html"/>
+    <id>http://hxear.top/Markdown_method.html</id>
+    <published>2019-10-29T17:38:50.000Z</published>
+    <updated>2019-11-27T18:21:25.601Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg&quot; alt=&quot;Markdown_method.jpg&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Markdown是什么？&quot;&gt;&lt;a href=&quot;#Markdown是什么？&quot; class=&quot;headerlink&quot; title=&quot;Markdown是什么？&quot;&gt;&lt;/a&gt;Markdown是什么？&lt;/h1&gt;&lt;p&gt;Markdown是一种「标记语言」，通常为程序员群体所用。除此之外，Markdown也是国际杂志编辑以及许多写作者都广泛使用的标记语言。&lt;/p&gt;
+&lt;p&gt;本熊博客建站初入门，博客的所有文章都将使用这一语言写成。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博客" scheme="http://hxear.top/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Markdown" scheme="http://hxear.top/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>

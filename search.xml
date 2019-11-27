@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown的使用方法</title>
+    <url>/Markdown_method.html</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg" alt="Markdown_method.jpg"></p>
+<h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><p>Markdown是一种「标记语言」，通常为程序员群体所用。除此之外，Markdown也是国际杂志编辑以及许多写作者都广泛使用的标记语言。</p>
+<p>本熊博客建站初入门，博客的所有文章都将使用这一语言写成。</p>
+<a id="more"></a>  
+
+<h1 id="为什么要用Markdown？"><a href="#为什么要用Markdown？" class="headerlink" title="为什么要用Markdown？"></a>为什么要用Markdown？</h1><p><strong>举个例子解释</strong></p>
+<p>大部分作家都是用 Word 或 Pages 写作，过去的文档也大都以微软的 .doc, .docx 格式或是苹果的 Pages 格式储存。还有人为了保证文稿发给谁都能正常打开，会用 .txt 格式。</p>
+<p>但是.doc 或 Pages 格式有如下问题：</p>
+<ul>
+<li><p>1.不一定谁都能打开。用 Windows 的人打不开苹果的 .pages 文件，用旧版 Word 的人不一定能打开你用新版 Word 写的稿子。</p>
+</li>
+<li><p>2.对方看到的稿子的样子和你自己看到的可能差别很大。</p>
+</li>
+<li><p>3.大部分人电脑上的Office都是盗版的，使用时很容易出问题。</p>
+</li>
+<li><p>4.用.txt 写的稿子没有格式，这就给编辑你文章的人带来困扰了。</p>
+</li>
+</ul>
+<p>到大学时我们会发现用Latex语言代码生成的论文既美观又简洁，那么写普通的博客呢？<strong>这就是 Markdown 登场的时候了。</strong></p>
+<p><strong>千万不要被「标记」、「语言」吓到，Markdown的语法十分简单，常用的标记符号不超过十个，用于日常写作记录绰绰有余，不到半小时就能完全掌握。</strong></p>
+<p><strong>但就是这十个不到的标记符号，却能让人优雅地沉浸式记录，专注内容而不是纠结排版，达到「心中无尘，码字入神」的境界。</strong></p>
+<h2 id="Markdown-的优点"><a href="#Markdown-的优点" class="headerlink" title="Markdown 的优点"></a>Markdown 的优点</h2><p>纯文本，所以兼容性极强，可以用所有文本编辑器打开。</p>
+<p>兼顾了「什么人都能打开」和「样式」。Markdown 就是纯文本，就是 .txt，所以什么人都能打开。而如上所述，你可以用它来标记文本的样式，而且语法非常简单。<br>由于是纯文本，Markdown 文稿也不会因为未来软件升级而产生不同版本之间的兼容问题，即，不会出现「我这篇稿子是用旧版 Word 写的，你用新版 Word 看可能格式会有点问题」的情况。</p>
+<p>让你专注于文字而不是排版。</p>
+<p>格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书等。</p>
+<p>Markdown 转 HTML 非常方便。HTML 是整个万维网（web）的标记语言，但更重要的是，它也是目前主流电子书格式所用的标记语言。无论是 EPUB, mobi，还是 Kindle 用的专有格式 .azw，都只是把一堆 HTML 文件打包而已。如果你写的是书，用 Markdown 标注格式之后，可以很方便地转为以上格式（当然这个转换工作不需要由你来做）；如果你写的是单篇的文章（例如新闻报道或专栏），未来也不排除结集出书的可能。若采用 Markdown，对于日后的文件转换工作也大有裨益。<br>如何开始用 Markdown？继续用你习惯的写作软件即可。记事本、Word、Pages 都没问题，但请记得存成纯文本格式。就这么简单。</p>
+<p>Markdown 的标记语法有极好的可读性。</p>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>这是最为常用的格式，在平时常用的的文本编辑器中大多是这样实现的：输入文本、选中文本、设置标题格式。</p>
+<p>而在 Markdown 中，你只需要在文本前面加上 # 即可，同理、你还可以增加二级标题、三级标题、四级标题、五级标题和六级标题，总共六级，只需要增加 # 即可，标题字号相应降低。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6></blockquote>
+<p>注：# 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。标题只有六个级别</p>
+<h1 id="分段换行"><a href="#分段换行" class="headerlink" title="分段换行"></a>分段换行</h1><p>换行有多种办法，这里只举三个简单的：</p>
+<ol>
+<li>换行：<ul>
+<li>两段文字之间敲两个或以上的空格符</li>
+<li>两段文字之间添加标签<code>&lt;br/&gt;</code>或<code>&lt;/br&gt;</code></li>
+</ul>
+</li>
+<li>分段：<ul>
+<li>两段文字之间空一行</li>
+</ul>
+</li>
+</ol>
+<h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><p>几种特殊强调字体：粗体、斜体、粗斜体、删除线。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">*这是斜体*</span><br><span class="line">**这是粗体**</span><br><span class="line">***这是斜体加粗体***</span><br><span class="line">~~这是删除线~~</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<p><em>这是斜体</em><br><strong>这是粗体</strong><br><strong><em>这是斜体加粗体</em></strong><br><del>这是删除线</del></p>
+</blockquote>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>列表格式也很常用，在 Markdown 中，你只需要在文字前面加上 <code>-</code>、<code>+</code>、<code>-</code> 任意一个就可以了，还可以按Tab建进行嵌套。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- 文本1</span><br><span class="line">    - 文本2</span><br><span class="line">        - 文本3</span><br><span class="line">* 文本4</span><br><span class="line">+ 文本5</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<ul>
+<li>文本1<ul>
+<li>文本2<ul>
+<li>文本3</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>文本4</li>
+</ul>
+<ul>
+<li>文本5</li>
+</ul>
+</blockquote>
+<p>如果你希望有序列表，<br>也可以在文字前面加上 1. 2. 3. 就可以了。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 文本1</span><br><span class="line">   1. 文本2</span><br><span class="line">   2. 文本3</span><br><span class="line">2. 文本3</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<ol>
+<li>文本1<ol>
+<li>文本2</li>
+<li>文本3</li>
+</ol>
+</li>
+<li>文本3</li>
+</ol>
+</blockquote>
+<p>注：-、1. 和文本之间要保留一个字符的空格。</p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在我们写作的时候经常需要引用他人的文字，这个时候引用这个格式就很有必要了，在 Markdown 中，你只需要在你希望引用的文字前面加上 <code>&gt;</code> 就好了。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;欢迎关注“朽熊的博客”  </span><br><span class="line">&gt;鲁迅说过：</span><br><span class="line">&gt;&gt;悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。</span><br></pre></td></tr></table></figure>
+
+<p>注：&gt; 和文本之间要保留一个字符的空格。</p>
+<p>最终显示的就是：</p>
+<blockquote>
+<p>欢迎关注“朽熊的博客”<br>鲁迅说过：</p>
+<blockquote>
+<p>悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。</p>
+</blockquote>
+</blockquote>
+<h1 id="线条"><a href="#线条" class="headerlink" title="线条"></a>线条</h1><p>在markdown语法中,一行连用三个或者三个以上的星号,减号,或者下划线,就可以表示分割线.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<hr>
+<hr>
+<hr>
+</blockquote>
+<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><h2 id="短代码"><a href="#短代码" class="headerlink" title="短代码"></a>短代码</h2><p>在一般的段落文字中，可以使用反引号　<br><code>`  （~ 键）</code><br> 来标记或插入代码区段。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C语言里的函数 `scanf()` 怎么使用？</span><br><span class="line">这样可以引用反引号　`` ` ``</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<p>C语言里的函数 <code>scanf()</code> 怎么使用？<br>这样可以引用反引号　<code>`</code>　</p>
+</blockquote>
+<h2 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h2><ul>
+<li>在需要高亮的代码块的前一行及后一行使用三个反引号 <code>```</code></li>
+<li>同时第一行反引号后面，输入代码块所使用的语言，实现代码高亮。</li>
+</ul>
+<p>比如高亮 <code>python3</code> 代码块  </p>
+<p>例如：</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">```python</span><br><span class="line">#!/usr/bin/env python3</span><br><span class="line">print(&quot;Hello, World!&quot;);</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line">print(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p>在 Markdown 中，插入链接不需要其他按钮，你只需要使用 <a href="链接地址">显示文本</a> 这样的语法即可。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[朽熊的博客](https://hxear.top)</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<p><a href="https://hxear.top">朽熊的博客</a></p>
+</blockquote>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>在 Markdown 中，插入图片不需要其他按钮，你只需要使用 [图片名]（图片地址） 这样的语法即可。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![本文章标题图](https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg)</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<p><img src="https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg" alt="本文章标题图"></p>
+</blockquote>
+<p>注：插入图片的语法和链接的语法很像，只是前面多了一个 !<br>图片地址可以用本地图片，也可以使用图床。<br>本熊这里用的是SM.MS图床，配合上效率工具Quicker的插件调用SM.MS的API，可以快速将本地图片或者剪板贴中的图片上传图片到图床<br><img src="https://i.loli.net/2019/11/28/uGDRwyL6czrNPxl.png" alt="quicker_1777c169-a2ae-4017-87b1-54d1c6b67797.png"></p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><p>使用 <code>|</code>来分隔不同的单元格，使用 - 来分隔表头和其他行：</p>
+<p>为了美观，可以使用空格对齐不同行的单元格，并在左右两侧都使用 | 来标记单元格边界：</p>
+<p>在表头下方的分隔线标记中加入 :，即可标记下方单元格内容的对齐方式：</p>
+<ul>
+<li>:— 代表左对齐</li>
+<li>:–: 代表居中对齐</li>
+<li>—: 代表右对齐</li>
+</ul>
+<p>相关代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">| Tables        |      Are      |  Cool |</span><br><span class="line">| ------------- | :-----------: | ----: |</span><br><span class="line">| col 3 is      | right-aligned | $1600 |</span><br><span class="line">| col 2 is      |   centered    |   $12 |</span><br><span class="line">| zebra stripes |   are neat    |    $1 |</span><br></pre></td></tr></table></figure>
+<p>效果如下：<br> | Tables        |      Are      |  Cool |<br> | ————- | :———–: | —-: |<br> | col 3 is      | right-aligned | $1600 |<br> | col 2 is      |   centered    |   $12 |<br> | zebra stripes |   are neat    |    $1 |</p>
+<h1 id="代办清单To-do-List"><a href="#代办清单To-do-List" class="headerlink" title="代办清单To-do List"></a>代办清单To-do List</h1><p>你可以在Markdown中编写代办清单</p>
+<p>相关代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- [x] 已完成项目1</span><br><span class="line">  - [x] 已完成事项</span><br><span class="line">  - [ ] 代办事项</span><br><span class="line">- [ ] 代办项目2</span><br><span class="line">- [ ] 代办项目3</span><br></pre></td></tr></table></figure>
+
+<p>效果如下:</p>
+<blockquote>
+<ul>
+<li><input checked disabled type="checkbox"> 已完成项目1<ul>
+<li><input checked disabled type="checkbox"> 已完成事项</li>
+<li><input disabled type="checkbox"> 代办事项</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 代办项目2</li>
+<li><input disabled type="checkbox"> 代办项目3</li>
+</ul>
+</blockquote>
+<h1 id="Mrkdown编辑器"><a href="#Mrkdown编辑器" class="headerlink" title="Mrkdown编辑器"></a>Mrkdown编辑器</h1><p>本熊大学专业读的物理，最喜欢的事情就是用最少的东西做最多的事，VS Code编辑器满足了我大部分的使用需求，他其中还有许多插件</p>
+<p>直接在他的插件中心搜索markdown就可以找到很多的插件</p>
+<p>最受推荐的插件：markdown-all-in-one</p>
+<p>在所有拓展插件中，这个插件基础功能最全，快捷键多，方便使用。其中也包含latex公式编辑（具体看2.8），但是能否完全有效识别需要测试，笔者未做实验。</p>
+<h1 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h1><p>markdown和html在语法上有类似的痛点<br>那就是一些想显示的符号最后都被识别成的语法标签。</p>
+<p>这时就需要用<code>转移符号</code>来显示这些符号</p>
+<p>其实非常简单，只需要在想显示的符号前面加个　<code>\</code>　就可以了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号</span><br><span class="line">\` 反引号</span><br><span class="line">…</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+</search>
