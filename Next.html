@@ -64,30 +64,31 @@
   };
 </script>
 
-  <meta name="description" content="姓名：胡雄鹏学号：20175528班级：应物17-2班">
-<meta property="og:type" content="website">
-<meta property="og:title" content="打酱油的熊">
-<meta property="og:url" content="http:&#x2F;&#x2F;hxear.top&#x2F;index.html">
+  <meta name="description" content="![](&#x2F;img&#x2F;hexo&#x2F;hexo-themes.jpg)  Hexo搭建个人博客本文将从 全局、首页、主题、页脚 四个方面对 NexT 主题进行优化  本文使用的版本：Node.js v12.10.0，npm 6.10.3， Hexo v3.9.0，NexT v7.4.1  全局添加博客自定义图标 将图标文件放置在&amp;amp;lt;blog-folder&amp;amp;gt;&#x2F;themes&#x2F;next">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Next">
+<meta property="og:url" content="http:&#x2F;&#x2F;hxear.top&#x2F;Next.html">
 <meta property="og:site_name" content="打酱油的熊">
-<meta property="og:description" content="姓名：胡雄鹏学号：20175528班级：应物17-2班">
+<meta property="og:description" content="![](&#x2F;img&#x2F;hexo&#x2F;hexo-themes.jpg)  Hexo搭建个人博客本文将从 全局、首页、主题、页脚 四个方面对 NexT 主题进行优化  本文使用的版本：Node.js v12.10.0，npm 6.10.3， Hexo v3.9.0，NexT v7.4.1  全局添加博客自定义图标 将图标文件放置在&amp;amp;lt;blog-folder&amp;amp;gt;&#x2F;themes&#x2F;next">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-27T18:55:32.343Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://hxear.top/">
+<link rel="canonical" href="http://hxear.top/Next.html">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>打酱油的熊</title>
+  <title>Next | 打酱油的熊</title>
   
 
 
@@ -214,10 +215,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://hxear.top/Next.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -231,8 +232,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/Next.html" class="post-title-link" itemprop="url">Next</a>
+          Next
         </h2>
 
         <div class="post-meta">
@@ -253,6 +253,13 @@
               </span>
               <span class="post-meta-item-text">阅读次数：</span>
               <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
             </span>
   
   <span class="post-meta-item">
@@ -292,7 +299,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <div class="post-body" itemprop="articleBody" style="opacity: 1; display: block; transform: translateY(0px);"><div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery"><div class="post-gallery-row"> ![](/img/hexo/hexo-themes.jpg)</div></div>
+        <div class="post-body" itemprop="articleBody" style="opacity: 1; display: block; transform: translateY(0px);"><div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery"><div class="post-gallery-row"> ![](/img/hexo/hexo-themes.jpg)</div></div>
 
 <h4 id="Hexo搭建个人博客"><a href="#Hexo搭建个人博客" class="headerlink" title="Hexo搭建个人博客"></a><a href="#Hexo搭建个人博客" title="Hexo搭建个人博客"></a>Hexo搭建个人博客</h4><p>本文将从 全局、首页、主题、页脚 四个方面对 NexT 主题进行优化</p>
 <blockquote>
@@ -403,135 +410,74 @@
 <h5 id="隐藏底部-powered-By-Hexo"><a href="#隐藏底部-powered-By-Hexo" class="headerlink" title="隐藏底部 powered By Hexo"></a><a href="#隐藏底部-powered-By-Hexo" title="隐藏底部 powered By Hexo"></a>隐藏底部 powered By Hexo</h5><ol>
 <li>打开 <code>&amp;lt;blog-folder&amp;gt;\themes\next\_config.yml</code></li>
 <li><strong>foot</strong> 参数中如下所示字段，将 true 改为 false<div class="highlight-wrap"><figure class="highlight yml"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">foot:</span></span><br><span class="line"><span class="attr">  powered:</span></span><br><span class="line">    <span class="comment"># 隐藏 Powered by Hexo</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># 隐藏版本号</span></span><br><span class="line"><span class="attr">    version:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  theme:</span></span><br><span class="line">    <span class="comment"># 隐藏主题名称</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># 隐藏版本号</span></span><br><span class="line"><span class="attr">    version:</span> <span class="literal">false</span></span><br></pre></td></tr></tbody></table></div></figure><div class="copy-btn">复制</div></div></li></ol></div>
-      
     </div>
 
     
     
+    <div>
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://hxear.top/Markdown_method.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="胡雄鹏">
-      <meta itemprop="description" content="姓名：胡雄鹏<br>学号：20175528<br>班级：应物17-2班">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="打酱油的熊">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/Markdown_method.html" class="post-title-link" itemprop="url">Markdown的使用方法</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-10-30 01:38:50" itemprop="dateCreated datePublished" datetime="2019-10-30T01:38:50+08:00">2019-10-30</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-11-28 02:26:57" itemprop="dateModified" datetime="2019-11-28T02:26:57+08:00">2019-11-28</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index">
-                    <span itemprop="name">博客</span>
-                  </a>
-                </span>
-            </span>
-
-          
-            <span id="/Markdown_method.html" class="post-meta-item leancloud_visitors" data-flag-title="Markdown的使用方法" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/Markdown_method.html#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/Markdown_method.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.6k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
-
+        <div style="text-align:center;color: #ccc;font-size:14px;">
+        -------------本文结束 <i class="fa fa-paw"></i> 感谢您的阅读-------------
         </div>
-      </header>
-
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+</div>
       
-          <p><img src="https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg" alt="Markdown_method.jpg"></p>
-<h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><p>Markdown是一种「标记语言」，通常为程序员群体所用。除此之外，Markdown也是国际杂志编辑以及许多写作者都广泛使用的标记语言。</p>
-<p>本熊博客建站初入门，博客的所有文章都将使用这一语言写成。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/Markdown_method.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+        <div class="reward-container">
+  <div>读后有收获可以支付宝请作者喝咖啡：</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="胡雄鹏 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="胡雄鹏 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
         
-      
-    </div>
 
-    
-    
-    
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>胡雄鹏
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://hxear.top/Next.html" title="Next">http://hxear.top/Next.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/null" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/Markdown_method.html" rel="next" title="Markdown的使用方法">
+                  <i class="fa fa-chevron-left"></i> Markdown的使用方法
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
       </footer>
+    
   </article>
   
   
@@ -539,12 +485,10 @@
 
   </div>
 
-  
-
-
 
           </div>
           
+    <div class="comments" id="comments"></div>
 
         </div>
           
@@ -569,6 +513,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo搭建个人博客"><span class="nav-number">1.</span> <span class="nav-text">Hexo搭建个人博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#全局"><span class="nav-number">2.</span> <span class="nav-text">全局</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#添加博客自定义图标"><span class="nav-number">2.1.</span> <span class="nav-text">添加博客自定义图标</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加背景效果-canvas-nest"><span class="nav-number">2.2.</span> <span class="nav-text">添加背景效果 canvas_nest</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加页面载条"><span class="nav-number">2.3.</span> <span class="nav-text">添加页面载条</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#首页"><span class="nav-number">3.</span> <span class="nav-text">首页</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#文章摘要-阅读全文"><span class="nav-number">3.1.</span> <span class="nav-text">文章摘要+阅读全文</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加搜索标签"><span class="nav-number">3.2.</span> <span class="nav-text">添加搜索标签</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#显示分类-标签-归档页的内容量"><span class="nav-number">3.3.</span> <span class="nav-text">显示分类/标签/归档页的内容量</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#设置头像"><span class="nav-number">3.4.</span> <span class="nav-text">设置头像</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#设置社交信息"><span class="nav-number">3.5.</span> <span class="nav-text">设置社交信息</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#主题"><span class="nav-number">4.</span> <span class="nav-text">主题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#主题添加字数统计"><span class="nav-number">4.1.</span> <span class="nav-text">主题添加字数统计</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#侧边栏阅读进度-Top"><span class="nav-number">4.2.</span> <span class="nav-text">侧边栏阅读进度 + Top</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#顶部文章读进度条"><span class="nav-number">4.3.</span> <span class="nav-text">顶部文章读进度条</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文章结束标志"><span class="nav-number">4.4.</span> <span class="nav-text">文章结束标志</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文章底部标签样式优化"><span class="nav-number">4.5.</span> <span class="nav-text">文章底部标签样式优化</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加文章结尾版权显示"><span class="nav-number">4.6.</span> <span class="nav-text">添加文章结尾版权显示</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#修改文章内链接文本样式"><span class="nav-number">4.7.</span> <span class="nav-text">修改文章内链接文本样式</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#页脚"><span class="nav-number">5.</span> <span class="nav-text">页脚</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#修改底部年份和名称中间的图标"><span class="nav-number">5.1.</span> <span class="nav-text">修改底部年份和名称中间的图标</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#显示总访问量"><span class="nav-number">5.2.</span> <span class="nav-text">显示总访问量</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#隐藏底部-powered-By-Hexo"><span class="nav-number">5.3.</span> <span class="nav-text">隐藏底部 powered By Hexo</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
