@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxear.top/"/>
-  <updated>2019-11-28T05:55:41.623Z</updated>
+  <updated>2019-11-28T06:16:34.323Z</updated>
   <id>http://hxear.top/</id>
   
   <author>
@@ -21,11 +21,12 @@
     <link href="http://hxear.top/HEXO_Blog.html"/>
     <id>http://hxear.top/HEXO_Blog.html</id>
     <published>2019-11-07T08:43:32.000Z</published>
-    <updated>2019-11-28T05:55:41.623Z</updated>
+    <updated>2019-11-28T06:16:34.323Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/11/28/7sTxnziabItpmYW.jpg&quot; alt=&quot;hexo-themes.jpg&quot;&gt;&lt;/p&gt;
+      &lt;img style=&quot;width:400px;height:240px&quot; src=&quot;https://i.loli.net/2019/11/28/7sTxnziabItpmYW.jpg&quot; alt=&quot;hexo-themes.jpg&quot; align=&quot;center&quot;&gt;
+
 &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;这是一篇关于搭建自己HEXO博客的心路历程文章，讲述自己搭建博客的原因及HEXO博客部署教程导航、HEXO主题美化导航……&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -45,11 +46,12 @@
     <link href="http://hxear.top/Markdown_method.html"/>
     <id>http://hxear.top/Markdown_method.html</id>
     <published>2019-10-30T02:38:50.000Z</published>
-    <updated>2019-11-28T05:55:36.386Z</updated>
+    <updated>2019-11-28T06:16:37.332Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg&quot; alt=&quot;Markdown_method.jpg&quot;&gt;&lt;/p&gt;
+      &lt;img style=&quot;width:400px;height:240px&quot; src=&quot;https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg&quot; alt=&quot;Markdown_method.jpg&quot; align=&quot;center&quot;&gt;
+
 &lt;h1 id=&quot;Markdown是什么？&quot;&gt;&lt;a href=&quot;#Markdown是什么？&quot; class=&quot;headerlink&quot; title=&quot;Markdown是什么？&quot;&gt;&lt;/a&gt;Markdown是什么？&lt;/h1&gt;&lt;p&gt;Markdown是一种「标记语言」，通常为程序员群体所用。除此之外，Markdown也是国际杂志编辑以及许多写作者都广泛使用的标记语言。&lt;/p&gt;
 &lt;p&gt;本熊博客建站初入门，博客的所有文章都将使用这一语言写成。&lt;/p&gt;
     

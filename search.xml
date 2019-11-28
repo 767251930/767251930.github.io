@@ -3,7 +3,8 @@
   <entry>
     <title>Hexo搭建个人专属博客的全方位导航</title>
     <url>/HEXO_Blog.html</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2019/11/28/7sTxnziabItpmYW.jpg" alt="hexo-themes.jpg"></p>
+    <content><![CDATA[<img style="width:400px;height:240px" src="https://i.loli.net/2019/11/28/7sTxnziabItpmYW.jpg" alt="hexo-themes.jpg" align="center">
+
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
 <p>这是一篇关于搭建自己HEXO博客的心路历程文章，讲述自己搭建博客的原因及HEXO博客部署教程导航、HEXO主题美化导航……</p>
 </blockquote>
@@ -165,7 +166,8 @@
   <entry>
     <title>Markdown的使用方法</title>
     <url>/Markdown_method.html</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg" alt="Markdown_method.jpg"></p>
+    <content><![CDATA[<img style="width:400px;height:240px" src="https://i.loli.net/2019/11/27/UnBYXSCcQi13t4q.jpg" alt="Markdown_method.jpg" align="center">
+
 <h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><p>Markdown是一种「标记语言」，通常为程序员群体所用。除此之外，Markdown也是国际杂志编辑以及许多写作者都广泛使用的标记语言。</p>
 <p>本熊博客建站初入门，博客的所有文章都将使用这一语言写成。</p>
 <a id="more"></a>  
