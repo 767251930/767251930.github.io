@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hxear.top/HEXO_Blog.html</loc>
+    
+    <lastmod>2019-11-28T05:55:41.623Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hxear.top/Markdown_method.html</loc>
+    
+    <lastmod>2019-11-28T05:55:36.386Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://hxear.top/tags/index.html</loc>
     
     <lastmod>2019-11-27T18:41:44.597Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://hxear.top/categories/index.html</loc>
     
     <lastmod>2019-11-27T18:41:44.595Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hxear.top/Markdown_method.html</loc>
-    
-    <lastmod>2019-11-27T18:26:57.891Z</lastmod>
     
   </url>
   
